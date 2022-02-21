@@ -34,8 +34,8 @@ function makeHoverable() {
 
 function resizeGrid () {
     let newSize = prompt("Input a new size for the Grid.")
-    if (newSize > 64) {
-        alert("Please input a size below or equal to 64x64!")
+    if (newSize > 100 || newSize<1) {
+        alert("Please input a size above 0x0 and less than or equal to 100x100!")
     }
     else{
     mainbody.innerHTML= ""
