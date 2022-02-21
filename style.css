@@ -34,9 +34,15 @@ border:0;
 #layout {
     display:flex;
     margin:20px;
+    display:flex;
+    gap: 100px;
 }
 
-#GridResize{
+#GridResize, #ClearButton{
     background-color: blue;
     color: white;
+}
+
+.hoveredCell {
+    background-color: black;
 }
